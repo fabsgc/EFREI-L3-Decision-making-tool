@@ -1,0 +1,1235 @@
+######################################################
+Resolution de problemes par propagation de contraintes
+######################################################
+
+Nom du fichier : F7modelisation
+
+###################
+Liste des variables
+###################
+
+ - 1 : 1 2
+ - 2 : 1
+ - 3 : 1 2 3 4 5 6 7 8 9
+ - 4 : 1 2 3 4
+ - 5 : 1 2 3 4 5 6 7 8 9
+ - 6 : 1 2 3 4 5 6 7 8 9
+ - 7 : 1 2 3 4 5 6 7
+ - 8 : 1 2 3 4 5 6 7 8 9
+ - 9 : 1 2 9
+
+# Utiliser la coherence d'arete (0/1) :
+#Votre choix : 1
+#################
+Coherence d'arete
+#################
+
+# liste des couples de variables a traiter :
+1/2 avec 1 contrainte(s)
+1/3 avec 1 contrainte(s)
+1/4 avec 1 contrainte(s)
+1/5 avec 1 contrainte(s)
+1/6 avec 1 contrainte(s)
+1/7 avec 1 contrainte(s)
+1/8 avec 1 contrainte(s)
+1/9 avec 1 contrainte(s)
+2/1 avec 1 contrainte(s)
+2/3 avec 1 contrainte(s)
+2/4 avec 1 contrainte(s)
+2/5 avec 1 contrainte(s)
+2/6 avec 1 contrainte(s)
+2/7 avec 1 contrainte(s)
+2/8 avec 1 contrainte(s)
+2/9 avec 1 contrainte(s)
+3/1 avec 1 contrainte(s)
+3/2 avec 1 contrainte(s)
+3/4 avec 1 contrainte(s)
+3/5 avec 1 contrainte(s)
+3/6 avec 1 contrainte(s)
+3/7 avec 1 contrainte(s)
+3/8 avec 1 contrainte(s)
+3/9 avec 1 contrainte(s)
+4/1 avec 1 contrainte(s)
+4/2 avec 1 contrainte(s)
+4/3 avec 1 contrainte(s)
+4/5 avec 1 contrainte(s)
+4/6 avec 1 contrainte(s)
+4/7 avec 1 contrainte(s)
+4/8 avec 1 contrainte(s)
+4/9 avec 1 contrainte(s)
+5/1 avec 1 contrainte(s)
+5/2 avec 1 contrainte(s)
+5/3 avec 1 contrainte(s)
+5/4 avec 1 contrainte(s)
+5/6 avec 1 contrainte(s)
+5/7 avec 1 contrainte(s)
+5/8 avec 1 contrainte(s)
+5/9 avec 1 contrainte(s)
+6/1 avec 1 contrainte(s)
+6/2 avec 1 contrainte(s)
+6/3 avec 1 contrainte(s)
+6/4 avec 1 contrainte(s)
+6/5 avec 1 contrainte(s)
+6/7 avec 1 contrainte(s)
+6/8 avec 1 contrainte(s)
+6/9 avec 1 contrainte(s)
+7/1 avec 1 contrainte(s)
+7/2 avec 1 contrainte(s)
+7/3 avec 1 contrainte(s)
+7/4 avec 1 contrainte(s)
+7/5 avec 1 contrainte(s)
+7/6 avec 1 contrainte(s)
+7/8 avec 1 contrainte(s)
+7/9 avec 1 contrainte(s)
+8/1 avec 1 contrainte(s)
+8/2 avec 1 contrainte(s)
+8/3 avec 1 contrainte(s)
+8/4 avec 1 contrainte(s)
+8/5 avec 1 contrainte(s)
+8/6 avec 1 contrainte(s)
+8/7 avec 1 contrainte(s)
+8/9 avec 1 contrainte(s)
+9/1 avec 1 contrainte(s)
+9/2 avec 1 contrainte(s)
+9/3 avec 1 contrainte(s)
+9/4 avec 1 contrainte(s)
+9/5 avec 1 contrainte(s)
+9/6 avec 1 contrainte(s)
+9/7 avec 1 contrainte(s)
+9/8 avec 1 contrainte(s)
+
+reduction d'arc de : 1/2
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ # suppression de la valeur 1 dans le domaine de 1
+ - le couple de valeurs 2/1 respecte les contraintes
+
+reduction d'arc de : 1/3
+ - le couple de valeurs 2/1 respecte les contraintes
+
+reduction d'arc de : 1/4
+ - le couple de valeurs 2/1 respecte les contraintes
+
+reduction d'arc de : 1/5
+ - le couple de valeurs 2/1 respecte les contraintes
+
+reduction d'arc de : 1/6
+ - le couple de valeurs 2/1 respecte les contraintes
+
+reduction d'arc de : 1/7
+ - le couple de valeurs 2/1 respecte les contraintes
+
+reduction d'arc de : 1/8
+ - le couple de valeurs 2/1 respecte les contraintes
+
+reduction d'arc de : 1/9
+ - le couple de valeurs 2/1 respecte les contraintes
+
+reduction d'arc de : 2/1
+ - le couple de valeurs 1/2 respecte les contraintes
+
+reduction d'arc de : 2/3
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/2 respecte les contraintes
+
+reduction d'arc de : 2/4
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/2 respecte les contraintes
+
+reduction d'arc de : 2/5
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/2 respecte les contraintes
+
+reduction d'arc de : 2/6
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/2 respecte les contraintes
+
+reduction d'arc de : 2/7
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/2 respecte les contraintes
+
+reduction d'arc de : 2/8
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/2 respecte les contraintes
+
+reduction d'arc de : 2/9
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/2 respecte les contraintes
+
+reduction d'arc de : 3/1
+ - le couple de valeurs 1/2 respecte les contraintes
+ - le couple de valeurs 2/2 ne respecte pas les contraintes
+ # suppression de la valeur 2 dans le domaine de 3
+ - le couple de valeurs 3/2 respecte les contraintes
+ - le couple de valeurs 4/2 respecte les contraintes
+ - le couple de valeurs 5/2 respecte les contraintes
+ - le couple de valeurs 6/2 respecte les contraintes
+ - le couple de valeurs 7/2 respecte les contraintes
+ - le couple de valeurs 8/2 respecte les contraintes
+ - le couple de valeurs 9/2 respecte les contraintes
+
+reduction d'arc de : 2/3
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 3/2
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ # suppression de la valeur 1 dans le domaine de 3
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 1/3
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 3/4
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 3/5
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 3/6
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 3/7
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 3/8
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 3/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 4/1
+ - le couple de valeurs 1/2 respecte les contraintes
+ - le couple de valeurs 2/2 ne respecte pas les contraintes
+ # suppression de la valeur 2 dans le domaine de 4
+ - le couple de valeurs 3/2 respecte les contraintes
+ - le couple de valeurs 4/2 respecte les contraintes
+
+reduction d'arc de : 2/4
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 3/4
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 4/2
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ # suppression de la valeur 1 dans le domaine de 4
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 1/4
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 3/4
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 4/3
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+
+reduction d'arc de : 4/5
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 4/6
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 4/7
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 4/8
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 4/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 5/1
+ - le couple de valeurs 1/2 respecte les contraintes
+ - le couple de valeurs 2/2 ne respecte pas les contraintes
+ # suppression de la valeur 2 dans le domaine de 5
+ - le couple de valeurs 3/2 respecte les contraintes
+ - le couple de valeurs 4/2 respecte les contraintes
+ - le couple de valeurs 5/2 respecte les contraintes
+ - le couple de valeurs 6/2 respecte les contraintes
+ - le couple de valeurs 7/2 respecte les contraintes
+ - le couple de valeurs 8/2 respecte les contraintes
+ - le couple de valeurs 9/2 respecte les contraintes
+
+reduction d'arc de : 2/5
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 3/5
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 4/5
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 5/2
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ # suppression de la valeur 1 dans le domaine de 5
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 1/5
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 3/5
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 4/5
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+
+reduction d'arc de : 5/3
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 5/4
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 5/6
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 5/7
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 5/8
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 5/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 6/1
+ - le couple de valeurs 1/2 respecte les contraintes
+ - le couple de valeurs 2/2 ne respecte pas les contraintes
+ # suppression de la valeur 2 dans le domaine de 6
+ - le couple de valeurs 3/2 respecte les contraintes
+ - le couple de valeurs 4/2 respecte les contraintes
+ - le couple de valeurs 5/2 respecte les contraintes
+ - le couple de valeurs 6/2 respecte les contraintes
+ - le couple de valeurs 7/2 respecte les contraintes
+ - le couple de valeurs 8/2 respecte les contraintes
+ - le couple de valeurs 9/2 respecte les contraintes
+
+reduction d'arc de : 2/6
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 3/6
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 4/6
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 5/6
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 6/2
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ # suppression de la valeur 1 dans le domaine de 6
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 1/6
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 3/6
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 4/6
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+
+reduction d'arc de : 5/6
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 6/3
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 6/4
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 6/5
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 6/7
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 6/8
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 6/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 7/1
+ - le couple de valeurs 1/2 respecte les contraintes
+ - le couple de valeurs 2/2 ne respecte pas les contraintes
+ # suppression de la valeur 2 dans le domaine de 7
+ - le couple de valeurs 3/2 respecte les contraintes
+ - le couple de valeurs 4/2 respecte les contraintes
+ - le couple de valeurs 5/2 respecte les contraintes
+ - le couple de valeurs 6/2 respecte les contraintes
+ - le couple de valeurs 7/2 respecte les contraintes
+
+reduction d'arc de : 2/7
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 3/7
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 4/7
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 5/7
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 6/7
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 7/2
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ # suppression de la valeur 1 dans le domaine de 7
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+
+reduction d'arc de : 1/7
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 3/7
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 4/7
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+
+reduction d'arc de : 5/7
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 6/7
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 7/3
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+
+reduction d'arc de : 7/4
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+
+reduction d'arc de : 7/5
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+
+reduction d'arc de : 7/6
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+
+reduction d'arc de : 7/8
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+
+reduction d'arc de : 7/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+
+reduction d'arc de : 8/1
+ - le couple de valeurs 1/2 respecte les contraintes
+ - le couple de valeurs 2/2 ne respecte pas les contraintes
+ # suppression de la valeur 2 dans le domaine de 8
+ - le couple de valeurs 3/2 respecte les contraintes
+ - le couple de valeurs 4/2 respecte les contraintes
+ - le couple de valeurs 5/2 respecte les contraintes
+ - le couple de valeurs 6/2 respecte les contraintes
+ - le couple de valeurs 7/2 respecte les contraintes
+ - le couple de valeurs 8/2 respecte les contraintes
+ - le couple de valeurs 9/2 respecte les contraintes
+
+reduction d'arc de : 2/8
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 3/8
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 4/8
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 5/8
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 6/8
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 7/8
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+
+reduction d'arc de : 8/2
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ # suppression de la valeur 1 dans le domaine de 8
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 1/8
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 3/8
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 4/8
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+
+reduction d'arc de : 5/8
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 6/8
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 7/8
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+
+reduction d'arc de : 8/3
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 8/4
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 8/5
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 8/6
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 8/7
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 8/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 9/1
+ - le couple de valeurs 1/2 respecte les contraintes
+ - le couple de valeurs 2/2 ne respecte pas les contraintes
+ # suppression de la valeur 2 dans le domaine de 9
+ - le couple de valeurs 9/2 respecte les contraintes
+
+reduction d'arc de : 2/9
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/9 respecte les contraintes
+
+reduction d'arc de : 3/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 4/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 5/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 6/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 7/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+
+reduction d'arc de : 8/9
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+ - le couple de valeurs 5/1 respecte les contraintes
+ - le couple de valeurs 6/1 respecte les contraintes
+ - le couple de valeurs 7/1 respecte les contraintes
+ - le couple de valeurs 8/1 respecte les contraintes
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 9/2
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ # suppression de la valeur 1 dans le domaine de 9
+ - le couple de valeurs 9/1 respecte les contraintes
+
+reduction d'arc de : 1/9
+ - le couple de valeurs 2/9 respecte les contraintes
+
+reduction d'arc de : 3/9
+ - le couple de valeurs 3/9 respecte les contraintes
+ - le couple de valeurs 4/9 respecte les contraintes
+ - le couple de valeurs 5/9 respecte les contraintes
+ - le couple de valeurs 6/9 respecte les contraintes
+ - le couple de valeurs 7/9 respecte les contraintes
+ - le couple de valeurs 8/9 respecte les contraintes
+ - le couple de valeurs 9/9 ne respecte pas les contraintes
+ # suppression de la valeur 9 dans le domaine de 3
+
+reduction d'arc de : 1/3
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 2/3
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 4/3
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+
+reduction d'arc de : 4/9
+ - le couple de valeurs 3/9 respecte les contraintes
+ - le couple de valeurs 4/9 respecte les contraintes
+
+reduction d'arc de : 5/3
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 5/9
+ - le couple de valeurs 3/9 respecte les contraintes
+ - le couple de valeurs 4/9 respecte les contraintes
+ - le couple de valeurs 5/9 respecte les contraintes
+ - le couple de valeurs 6/9 respecte les contraintes
+ - le couple de valeurs 7/9 respecte les contraintes
+ - le couple de valeurs 8/9 respecte les contraintes
+ - le couple de valeurs 9/9 ne respecte pas les contraintes
+ # suppression de la valeur 9 dans le domaine de 5
+
+reduction d'arc de : 1/5
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 2/5
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 3/5
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+
+reduction d'arc de : 4/5
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+
+reduction d'arc de : 6/3
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 6/5
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 6/9
+ - le couple de valeurs 3/9 respecte les contraintes
+ - le couple de valeurs 4/9 respecte les contraintes
+ - le couple de valeurs 5/9 respecte les contraintes
+ - le couple de valeurs 6/9 respecte les contraintes
+ - le couple de valeurs 7/9 respecte les contraintes
+ - le couple de valeurs 8/9 respecte les contraintes
+ - le couple de valeurs 9/9 ne respecte pas les contraintes
+ # suppression de la valeur 9 dans le domaine de 6
+
+reduction d'arc de : 1/6
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 2/6
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 3/6
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+
+reduction d'arc de : 4/6
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+
+reduction d'arc de : 5/6
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+
+reduction d'arc de : 7/3
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+
+reduction d'arc de : 7/5
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+
+reduction d'arc de : 7/6
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+
+reduction d'arc de : 7/9
+ - le couple de valeurs 3/9 respecte les contraintes
+ - le couple de valeurs 4/9 respecte les contraintes
+ - le couple de valeurs 5/9 respecte les contraintes
+ - le couple de valeurs 6/9 respecte les contraintes
+ - le couple de valeurs 7/9 respecte les contraintes
+
+reduction d'arc de : 8/3
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 8/5
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 8/6
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 8/9
+ - le couple de valeurs 3/9 respecte les contraintes
+ - le couple de valeurs 4/9 respecte les contraintes
+ - le couple de valeurs 5/9 respecte les contraintes
+ - le couple de valeurs 6/9 respecte les contraintes
+ - le couple de valeurs 7/9 respecte les contraintes
+ - le couple de valeurs 8/9 respecte les contraintes
+ - le couple de valeurs 9/9 ne respecte pas les contraintes
+ # suppression de la valeur 9 dans le domaine de 8
+
+reduction d'arc de : 1/8
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 2/8
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 3/8
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+
+reduction d'arc de : 4/8
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+
+reduction d'arc de : 5/8
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+
+reduction d'arc de : 6/8
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+ - le couple de valeurs 8/3 respecte les contraintes
+
+reduction d'arc de : 7/8
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+ - le couple de valeurs 4/3 respecte les contraintes
+ - le couple de valeurs 5/3 respecte les contraintes
+ - le couple de valeurs 6/3 respecte les contraintes
+ - le couple de valeurs 7/3 respecte les contraintes
+
+reduction d'arc de : 9/3
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 9/4
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 9/5
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 9/6
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 9/7
+ - le couple de valeurs 9/3 respecte les contraintes
+
+reduction d'arc de : 9/8
+ - le couple de valeurs 9/3 respecte les contraintes
+
+## Domaines de valeurs des variables :
+
+###################
+Liste des variables
+###################
+
+ - 1 : 2
+ - 2 : 1
+ - 3 : 3 4 5 6 7 8
+ - 4 : 3 4
+ - 5 : 3 4 5 6 7 8
+ - 6 : 3 4 5 6 7 8
+ - 7 : 3 4 5 6 7
+ - 8 : 3 4 5 6 7 8
+ - 9 : 9
+
+# Quel algorithme :
+ - 1.Naif
+ - 2.Reduction des domaines de valeurs
+
+#Votre choix : 2
+# Quel methode de tri :
+ - 1.Variable la plus contrainte
+ - 2.Variable la moins contrainte
+ - 3.Variable la plus contraignante
+ - 4.Variable la moins contraignante
+ - 5.Aucune
+
+#Votre choix : 5
+
+################################################
+Parcours en profondeur avec reduction de domaine
+################################################
+
+Le chemin partiel 2  respecte les contraintes
+Le chemin partiel 2 1  respecte les contraintes
+Le chemin partiel 2 1 3  ne respecte pas les contraintes
+Le chemin partiel 2 1 4  ne respecte pas les contraintes
+Le chemin partiel 2 1 5  ne respecte pas les contraintes
+Le chemin partiel 2 1 6  ne respecte pas les contraintes
+Le chemin partiel 2 1 7  ne respecte pas les contraintes
+Le chemin partiel 2 1 8  ne respecte pas les contraintes
+
+#####################
+Solutions du probleme
+#####################
+
+Aucune solution
+
+Appuyez sur une touche pour continuer...

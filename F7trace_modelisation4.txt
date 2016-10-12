@@ -1,0 +1,156 @@
+######################################################
+Resolution de problemes par propagation de contraintes
+######################################################
+
+Nom du fichier : F7modelisation4
+
+###################
+Liste des variables
+###################
+
+ - 1 : 1 2
+ - 2 : 1
+ - 3 : 1 2 3
+ - 4 : 1 2 3 4
+
+# Utiliser la coherence d'arete (0/1) :
+#Votre choix : 1
+#################
+Coherence d'arete
+#################
+
+# liste des couples de variables a traiter :
+1/2 avec 1 contrainte(s)
+1/3 avec 1 contrainte(s)
+1/4 avec 1 contrainte(s)
+2/1 avec 1 contrainte(s)
+2/3 avec 1 contrainte(s)
+2/4 avec 1 contrainte(s)
+3/1 avec 1 contrainte(s)
+3/2 avec 1 contrainte(s)
+3/4 avec 1 contrainte(s)
+4/1 avec 1 contrainte(s)
+4/2 avec 1 contrainte(s)
+4/3 avec 1 contrainte(s)
+
+reduction d'arc de : 1/2
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ # suppression de la valeur 1 dans le domaine de 1
+ - le couple de valeurs 2/1 respecte les contraintes
+
+reduction d'arc de : 1/3
+ - le couple de valeurs 2/1 respecte les contraintes
+
+reduction d'arc de : 1/4
+ - le couple de valeurs 2/1 respecte les contraintes
+
+reduction d'arc de : 2/1
+ - le couple de valeurs 1/2 respecte les contraintes
+
+reduction d'arc de : 2/3
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/2 respecte les contraintes
+
+reduction d'arc de : 2/4
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/2 respecte les contraintes
+
+reduction d'arc de : 3/1
+ - le couple de valeurs 1/2 respecte les contraintes
+ - le couple de valeurs 2/2 ne respecte pas les contraintes
+ # suppression de la valeur 2 dans le domaine de 3
+ - le couple de valeurs 3/2 respecte les contraintes
+
+reduction d'arc de : 2/3
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 3/2
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ # suppression de la valeur 1 dans le domaine de 3
+ - le couple de valeurs 3/1 respecte les contraintes
+
+reduction d'arc de : 1/3
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 3/4
+ - le couple de valeurs 3/1 respecte les contraintes
+
+reduction d'arc de : 4/1
+ - le couple de valeurs 1/2 respecte les contraintes
+ - le couple de valeurs 2/2 ne respecte pas les contraintes
+ # suppression de la valeur 2 dans le domaine de 4
+ - le couple de valeurs 3/2 respecte les contraintes
+ - le couple de valeurs 4/2 respecte les contraintes
+
+reduction d'arc de : 2/4
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ - le couple de valeurs 1/3 respecte les contraintes
+
+reduction d'arc de : 3/4
+ - le couple de valeurs 3/1 respecte les contraintes
+
+reduction d'arc de : 4/2
+ - le couple de valeurs 1/1 ne respecte pas les contraintes
+ # suppression de la valeur 1 dans le domaine de 4
+ - le couple de valeurs 3/1 respecte les contraintes
+ - le couple de valeurs 4/1 respecte les contraintes
+
+reduction d'arc de : 1/4
+ - le couple de valeurs 2/3 respecte les contraintes
+
+reduction d'arc de : 3/4
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ - le couple de valeurs 3/4 respecte les contraintes
+
+reduction d'arc de : 4/3
+ - le couple de valeurs 3/3 ne respecte pas les contraintes
+ # suppression de la valeur 3 dans le domaine de 4
+ - le couple de valeurs 4/3 respecte les contraintes
+
+reduction d'arc de : 1/4
+ - le couple de valeurs 2/4 respecte les contraintes
+
+reduction d'arc de : 2/4
+ - le couple de valeurs 1/4 respecte les contraintes
+
+## Domaines de valeurs des variables :
+
+###################
+Liste des variables
+###################
+
+ - 1 : 2
+ - 2 : 1
+ - 3 : 3
+ - 4 : 4
+
+# Quel algorithme :
+ - 1.Naif
+ - 2.Reduction des domaines de valeurs
+
+#Votre choix : 2
+# Quel methode de tri :
+ - 1.Variable la plus contrainte
+ - 2.Variable la moins contrainte
+ - 3.Variable la plus contraignante
+ - 4.Variable la moins contraignante
+ - 5.Aucune
+
+#Votre choix : 5
+
+################################################
+Parcours en profondeur avec reduction de domaine
+################################################
+
+Le chemin partiel 2  respecte les contraintes
+Le chemin partiel 2 1  respecte les contraintes
+Le chemin partiel 2 1 3  respecte les contraintes
+
+#####################
+Solutions du probleme
+#####################
+
+2 1 3 4
+
+Appuyez sur une touche pour continuer...

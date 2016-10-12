@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1457032875 source:c:\users\fabien\documents\efrei\l3\s6\aide-a-la-decision\decision\main.cpp
+	"psc.h"
+
+1457030697 source:c:\users\fabien\documents\efrei\l3\s6\aide-a-la-decision\decision\fonctions.cpp
+
+1457043216 c:\users\fabien\documents\efrei\l3\s6\aide-a-la-decision\decision\psc.h
+	"fonctions.h"
+
+1457031979 c:\users\fabien\documents\efrei\l3\s6\aide-a-la-decision\decision\fonctions.h
+	"structures.h"
+
+1457043197 c:\users\fabien\documents\efrei\l3\s6\aide-a-la-decision\decision\structures.h
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+	<list>
+	<map>
+
+1457038515 source:c:\users\fabien\documents\efrei\l3\s6\aide-a-la-decision\decision\psc.cpp
+	"psc.h"
+
+1457442718 source:c:\users\fabien\documents\efrei\l3\s6\aide-a-la-decision\decision\f7main.cpp
+	"F7psc.h"
+
+1457442718 c:\users\fabien\documents\efrei\l3\s6\aide-a-la-decision\decision\f7psc.h
+	"F7fonctions.h"
+
+1457442718 c:\users\fabien\documents\efrei\l3\s6\aide-a-la-decision\decision\f7fonctions.h
+	"F7structures.h"
+
+1457442718 c:\users\fabien\documents\efrei\l3\s6\aide-a-la-decision\decision\f7structures.h
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+	<list>
+	<map>
+	<algorithm>
+
+1457478634 source:c:\users\fabien\documents\efrei\l3\s6\aide-a-la-decision\decision\f7psc.cpp
+	"F7psc.h"
+
